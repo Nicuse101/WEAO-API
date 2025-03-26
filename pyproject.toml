@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "WEAO-API"
+version = "0.1.0"
+description = "User-friendly library for handling WEAO (whatexpsare.online) API"
+authors = [{ name = "Nicuse" }]
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.setuptools]
+py_modules = ["__init__"]
