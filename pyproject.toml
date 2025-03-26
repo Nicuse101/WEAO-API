@@ -11,4 +11,4 @@ readme = "README.md"
 license = { text = "MIT" }
 
 [tool.setuptools]
-py_modules = ["__init__"]
+packages = ["weao_api"]
